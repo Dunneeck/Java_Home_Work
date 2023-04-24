@@ -1,0 +1,5 @@
+[
+    {"surname":"Ivanov","grades":"5","lesson":"mathematics"},
+    {"surname":"Petrov","grades":"4","lesson":"Informatics"},
+    {"surname":"Krasnov","grades":"5","lesson":"physics"}
+]
