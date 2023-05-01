@@ -27,6 +27,10 @@ public class Task_3 {
         int min = nums.get(0);
         // int min = Collections.min(nums);
         // int max = Collections.max(nums);
+
+        int sum = nums.stream().mapToInt(Integer::intValue).sum();
+        System.out.println("Среднее арифметическое = "+ sum / nums.size());
+
         for (Integer num : nums) {
             if(max < num) max = num;
             if(min > num) min = num;

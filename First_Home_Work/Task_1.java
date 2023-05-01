@@ -77,7 +77,10 @@ public class Task_1 {
                 iScanner.close();
                 return num;
             } 
-            else System.out.println("Вы ввели не то значение, попробуйте снова!");
+            else{
+                System.out.println("Вы ввели не то значение, попробуйте снова!");
+                iScanner.close();
+            } 
         }
     }
 }
